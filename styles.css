@@ -1,0 +1,89 @@
+* {
+	margin: 0rem;
+}
+:root {
+	--primary-color: #a78bfa;
+	--secondary-color: #374151;
+}
+body {
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+}
+nav {
+	background-color: var(--primary-color);
+}
+nav h1 {
+	padding: 2rem;
+	text-align: center;
+	font-size: xx-large;
+	color: var(--secondary-color);
+}
+nav h3 {
+	color: var(--secondary-color);
+	text-align: center;
+	padding-bottom: 1rem;
+}
+.container {
+	width: 50%;
+	margin: auto;
+	padding-top: 3rem;
+}
+input,
+label[for="lucky-number"],
+label[for="date-of-birth"],
+#output-box {
+	display: block;
+	margin: 1rem auto;
+	text-align: center;
+	font-size: x-large;
+}
+input {
+	margin-bottom: 1rem;
+	border-radius: 0.3rem;
+	padding: 0.3rem;
+}
+#check-number {
+	display: block;
+	margin: 2rem auto;
+	color: var(--primary-color);
+	border: 1px solid var(--primary-color);
+	border-radius: 0.3rem;
+	padding: 1rem;
+	background: transparent;
+}
+/** footers **/
+.footer {
+	background-color: var(--primary-color);
+	padding: 1rem;
+	text-align: center;
+	color: var(--secondary-color);
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.footer ul {
+	padding-inline-start: 0px;
+}
+.footer .footer-header {
+	font-weight: bold;
+	font-size: large;
+}
+.list-non-bullet {
+	list-style: none;
+}
+.list-item-inline {
+	display: inline;
+	padding: 1rem 0.5rem;
+}
+.link {
+	text-decoration: none;
+	padding: 1rem 1rem;
+	border-radius: 0.5rem;
+}
+.container2 {
+	padding: 1rem 1rem;
+}
+#logo {
+	width: 2rem;
+	padding-top: 1rem;
+}
